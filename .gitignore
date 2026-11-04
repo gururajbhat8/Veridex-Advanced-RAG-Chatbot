@@ -8,6 +8,7 @@ env/
 venv/
 .venv/
 ENV/
+ragbot/
 
 # Environment Variables
 .env
