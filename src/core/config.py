@@ -29,7 +29,7 @@ class Settings(BaseSettings):
     BEDROCK_MODEL_ID: str = "anthropic.claude-3-5-sonnet-20240620-v1:0"
     # --- Free Fallback LLM (Groq) ---
     GROQ_API_KEY: Optional[str] = None
-    GROQ_MODEL_NAME: str = "llama-3.1-8b-instant"
+    GROQ_MODEL_NAME: str = "openai/gpt-oss-120b"
     # --- Vector DB (Pinecone) ---
     PINECONE_API_KEY: Optional[str] = None
     PINECONE_INDEX_NAME: str = "veridex-rag-index"
