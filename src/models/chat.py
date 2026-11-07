@@ -2,6 +2,7 @@ from pydantic import BaseModel, Field
 from typing import List, Optional, Dict, Any
 
 
+
 class ChatRequest(BaseModel):
     """
     Incoming request payload for querying the RAG chatbot.
